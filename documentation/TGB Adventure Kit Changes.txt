@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
 Torque Game Builder Adventure Kit
-Copyright (c) 2008 Sickhead Games, LLC
+Copyright (c) Sickhead Games, LLC
 All Rights Reserved.
 http://www.sickheadgames.com
 

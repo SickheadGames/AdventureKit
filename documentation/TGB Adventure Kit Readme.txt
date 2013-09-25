@@ -1,10 +1,10 @@
 ----------------------------------------------------------------
 Torque Game Builder Adventure Kit
-Copyright (c) 2007 Sickhead Games, LLC
+Copyright (c) Sickhead Games, LLC
 All Rights Reserved.
 http://www.sickheadgames.com
 
-Release Notes - August 30th, 2007
+Release Notes - September 25th, 2013
 ----------------------------------------------------------------
 
 Welcome to the latest release of the TGB Adventure Kit!  Be aware
@@ -14,15 +14,13 @@ Use the TGB Adventure Kit 1.1 for older versions of TGB.
 
 -- Documentation and Help --
 
-The TGB Adventure Kit documentation can be found in the GarageGames 
-TDN Wiki:
+The TGB Adventure Kit documentation can be found in the GitHub wiki:
 
-  http://tdn.garagegames.com/wiki/AdventureKit
+  https://github.com/SickheadGames/AdventureKit/wiki
 
-For further help and questions feel free to post to the private 
-forums:
+For further help and questions feel free to post an issue on GitHub:
 
-  http://www.garagegames.com/mg/forums/result.forum.php?qf=184
+  https://github.com/SickheadGames/AdventureKit/issues
 
 
 -- Demo Controls --
