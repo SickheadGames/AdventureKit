@@ -3,6 +3,8 @@
 
 This is the full source code and assets of the TGB Adventure Kit by [Sickhead Games](http://www.sickhead.com/).
 
+**The kit is still being ported to work with latest version of [Torque2D](https://github.com/GarageGames/Torque2D).**
+
 
 ### Documentation and Help
 
