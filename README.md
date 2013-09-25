@@ -4,6 +4,12 @@
 This is the full source code and assets of the TGB Adventure Kit by [Sickhead Games](http://www.sickhead.com/).
 
 
+### Documentation and Help
+
+The kit documentation can be found [in the GitHub wiki](https://github.com/SickheadGames/AdventureKit/wiki).
+
+For further help and questions feel free to [post an issue on GitHub](https://github.com/SickheadGames/AdventureKit/issues).
+
 
 ## Support Sickhead!
 
