@@ -1,0 +1,122 @@
+//------------------------------------------------------------------------------
+// Torque Game Builder Adventure Kit
+// Copyright (C) Sickhead Games, LLC
+//------------------------------------------------------------------------------
+
+//--- OBJECT WRITE BEGIN ---
+new GuiChunkedBitmapCtrl(PlayScreenGui) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiContentProfile";
+   HorizSizing = "width";
+   VertSizing = "height";
+   Position = "0 0";
+   Extent = "1024 768";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   bitmap = "~/data/images/logoblack";
+   useVariable = "0";
+   tile = "0";
+   noCursor = true;
+   
+   new t2dSceneWindow(sceneWindow2D) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiContentProfile";
+      HorizSizing = "width";
+      VertSizing = "height";
+      Position = "0 0";
+      Extent = "1024 768";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      lockMouse = "0";
+      useWindowMouseEvents = "0";
+      useObjectMouseEvents = "0";
+   };
+   
+   new t2dSceneWindow(EffectWindow) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiContentProfile";
+      HorizSizing = "width";
+      VertSizing = "height";
+      Position = "0 0";
+      Extent = "1024 768";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      lockMouse = "0";
+      useWindowMouseEvents = "0";
+      useObjectMouseEvents = "0";
+   };
+   
+  new GuiBitmapCtrl(PauseTextGui) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "center";
+      VertSizing = "center";
+      position = "0 0";
+      Extent = "83 41";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "0";
+      hovertime = "1000";
+      bitmap = "~/data/images/paused";
+      useVariable = "0";
+      tile = "0";
+   };     
+};
+//--- OBJECT WRITE END ---
+
+
+function EffectWindow::onWake( %this )
+{
+   %sg = %this.getSceneGraph();
+   if ( %sg )
+      return;
+
+   // Create a new scene graph for effects rendering.
+   %sg = new t2dSceneGraph() 
+   {
+      cameraSize = "100 100";
+      cameraPosition = "0 0";      
+   };
+   %this.setSceneGraph( %sg );  
+}
+
+function EffectWindow::onPlayerPain( %this, %severity )
+{
+   // Make sure its not out of range.
+   %severity = %severity > 1 ? 1 : %severity;
+   
+   // A solid red looks bad... so tweak the value a bit.
+   %alpha = 0.6 * %severity;
+   %alpha = %alpha < 0.3 ? 0.3 : %alpha;
+
+   // Tint the screen red and fade it out.
+   %block = new t2dStaticSprite()
+   {
+      scenegraph = %this.getSceneGraph();
+      imageMap = whiteMap;
+   };
+   %block.setBlendColor( 192 / 256, 0, 13 / 256, %alpha );
+   %block.setPosition( 0, 0 );
+   %block.setSize( 100, 100 );
+   %block.fadeBlendAlpha( -0.01, 3000 );
+   %block.schedule( 3000, safeDelete );
+}
+
+function EffectWindow::fadeInPlayscreen( %this, %time )
+{
+   Canvas.setContent( PlayScreenGui );
+
+   // Tint the screen black and fade it out.
+   %block = new t2dStaticSprite()
+   {
+      scenegraph = %this.getSceneGraph();
+      imageMap = whiteMap;
+   };
+   %block.setBlendColor( 0, 0, 0, 1 );
+   %block.setPosition( 0, 0 );
+   %block.setSize( 100, 100 );
+   %block.fadeBlendAlpha( -0.01, %time );
+}

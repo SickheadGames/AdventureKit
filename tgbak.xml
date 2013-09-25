@@ -1,0 +1,117 @@
+<project>
+    <shortName>tgbak</shortName>
+    <fullName>TGB Adventure Kit 1.2</fullName>
+    <version>1.2</version>
+    <installerFilename>TGB_AdventureKit_v1_2_0.${platform_exec_suffix}</installerFilename>
+    <readmeFile>documentation/TGB Adventure Kit Readme.txt</readmeFile>
+    <licenseFile>documentation/TGB Adventure Kit EULA.txt</licenseFile>
+    <leftImage>installerimage.png</leftImage>
+    <logoImage>installerimagesmall_a.png</logoImage>
+    <splashImage>splash.png</splashImage>
+    <postInstallationActionList>
+        <copyFile>
+            <destination>${installdir}/tgb/resources/adventureKitArt</destination>
+            <origin>${installdir}/games/adventureKit/game/data/images/sprites</origin>
+        </copyFile>
+        <copyFile>
+            <destination>${installdir}/tgb/resources/adventureKitArt</destination>
+            <origin>${installdir}/games/adventureKit/game/data/images/tiles</origin>
+        </copyFile>
+        <copyFile>
+            <destination>${installdir}/tgb/gameData/T2DProject/templates/AdventureKit</destination>
+            <origin>${installdir}/games/adventureKit/game/*</origin>
+        </copyFile>
+        <addFilesToUninstaller>
+            <files>
+			${installdir}/tgb/resources/adventureKitArt;
+			${installdir}/tgb/gameData/T2DProject/templates/AdventureKit
+		</files>
+        </addFilesToUninstaller>
+    </postInstallationActionList>
+    <preUninstallationActionList>
+        <deleteFile>
+            <path>${installdir}/games/adventureKit/*.dso</path>
+        </deleteFile>
+        <deleteFile>
+            <path>${installdir}/games/adventureKit/console.log</path>
+        </deleteFile>
+    </preUninstallationActionList>
+    <outputDirectory>../..</outputDirectory>
+    <saveRelativePaths>1</saveRelativePaths>
+    <uninstallerName>Uninstall TGB Adventure Kit</uninstallerName>
+    <componentList>
+        <component>
+            <name>default</name>
+            <description>Default Component</description>
+            <canBeEdited>1</canBeEdited>
+            <selected>1</selected>
+            <show>1</show>
+            <folderList>
+                <folder>
+                    <description>TGB Games</description>
+                    <destination>${installdir}/games</destination>
+                    <name>tgbgames</name>
+                    <platforms>all</platforms>
+                    <distributionFileList>
+                        <distributionDirectory>
+                            <origin>games/adventureKit</origin>
+                        </distributionDirectory>
+                    </distributionFileList>
+                </folder>
+                <folder>
+                    <description>TGB AdvKit Resources</description>
+                    <destination>${installdir}/tgb/resources/AdventureKitArt</destination>
+                    <name>tgbadvkitres</name>
+                    <platforms>all</platforms>
+                    <distributionFileList>
+                        <distributionFile>
+                            <origin>tgb/resources/adventureKitArt/resourceDatabase.cs</origin>
+                        </distributionFile>
+                    </distributionFileList>
+                </folder>
+                <folder>
+                    <description>TGB Docs</description>
+                    <destination>${installdir}/documentation</destination>
+                    <name>tgbdocs</name>
+                    <platforms>all</platforms>
+                    <distributionFileList>
+                        <distributionFile>
+                            <origin>documentation/TGB Adventure Kit Readme.txt</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>documentation/TGB Adventure Kit Changes.txt</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>documentation/TGB Adventure Kit EULA.txt</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>documentation/TGB Adventure Kit Documentation.webloc</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>documentation/TGB Adventure Kit Private Forum.webloc</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>documentation/TGB Adventure Kit Product Page.webloc</origin>
+                        </distributionFile>
+                    </distributionFileList>
+                </folder>
+            </folderList>
+        </component>
+    </componentList>
+    <parameterList>
+        <directoryParameter>
+            <name>installdir</name>
+            <description>Installer.Parameter.installdir.description</description>
+            <explanation>Please select an existing Torque Game Builder 1.5.1 or higher folder.</explanation>
+            <value>/Applications/TorqueGameBuilder</value>
+            <default>${platform_install_prefix}/${product_shortname}-${product_version}</default>
+            <allowEmptyValue>0</allowEmptyValue>
+            <ask>yes</ask>
+            <cliOptionName>prefix</cliOptionName>
+            <mustBeWritable>yes</mustBeWritable>
+            <mustExist>0</mustExist>
+            <width>30</width>
+        </directoryParameter>
+    </parameterList>
+</project>
+

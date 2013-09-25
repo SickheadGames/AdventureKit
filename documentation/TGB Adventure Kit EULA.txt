@@ -1,0 +1,23 @@
+Torque Game Builder (TGB) Adventure Kit End User License Agreement (EULA)
+
+The use of the Sickhead Games TGB Adventure Kit ("Software") is governed by this license agreement ("Agreement"). You must read and agree to this Agreement terms BEFORE installing the Software to your hard drive or using the Software in any way. If you do not agree to the license terms, do not download, install or use the Software. It is important that you print out a copy of this Agreement on your date of acquisition as a record of the governing terms and conditions. Please make copies for all those in your organization who need to be familiar with the license terms.
+
+BY CLICKING THE ACCEPTANCE BUTTON OR INSTALLING OR USING THE SOFTWARE, THE INDIVIDUAL ACCESSING THE SOFTWARE ("LICENSEE") IS CONSENTING TO BE BOUND BY AND BECOME A PARTY TO THIS AGREEMENT.
+
+
+Simple Description:
+
+You can modify this kit for your game and otherwise do what you will with it, with the following limitations: You can't use this kit to make and sell more kits or content packs. You can't release the source files. You can't make derived works and release the source files. You don't own the content. You are licensing the content and you have to abide by the rules and protect our copyright.
+
+
+End User License Terms:
+
+1. SINGLE COPY SOFTWARE LICENSE: This Kit is copyrighted and protected by law and international treaty. You may download this Software through a web browser or copy it from GarageGames approved distributed media onto a single computer. You may modify or create derivative works for use in the creation of one software product (a game or simulation), so long as the software product produced is not composed primarily of the the content of this kit. No other use is granted unless specifically licensed to do otherwise by Sickhead Games, LLC. This is a license, not a transfer of title, and you may not (a) create derivative works based on this Software for retail sale or distribution by any means other than as provided by this agreement;(b) transfer this Software or the documentation in whole or in part to another person without Sickhead Games, LLC.'s permission;(c) remove any copyright or other Sickhead Games, LLC. proprietary notices. You may not permit anyone else to (d) modify this Software or use it for any commercial purpose or public display, performance, sale or rental; (e) de-compile, reverse engineer, or disassemble, modify, or create derivative works based on this Software or the documentation in whole or in part; (f) remove any copyright or other Sickhead Games, LLC. proprietary notices; (g) transfer this Software to another person. You agree to prevent any copying of this Software that you download for your use from the GarageGames web site.
+
+2. OWNERSHIP: This Software and all Sickhead Games, LLC. information on the GarageGames web site is proprietary material of Sickhead Games, LLC. and except as provided for by this agreement, may not be copied, reproduced, published, uploaded, posted, transmitted, or distributed in any way, without Sickhead Games, LLC.'s prior written permission. Except as expressly provided herein, Sickhead Games LLC. and its suppliers do not grant any express or implied right to you under any patents, copyrights, trademarks, or trade secret information of Sickhead Games, LLC. or its suppliers.
+
+3. TERMINATION OF THIS LICENSE: Sickhead Games, LLC. may terminate this license at any time if you are in breach of the terms and conditions of use. Upon such termination you must and agree to immediately destroy all copies of this Software and all of its accompanying documentation.
+
+4. DISCLAIMER AND WARRANTY: Sickhead Games, LLC. provides the products related to this agreement "AS IS" without warranty of any kind. Sickhead Games, LLC. makes no warranties either express or implied in conjunction with any content published at GarageGames. Should the Software prove defective in any respect, the licensee not the licensor or its suppliers or resellers assumes the entire cost of any service and repair.
+
+5. CHOICE OF LAW: This agreement will be governed by the laws of the State of Texas, U.S.A., excluding its conflict of law provisions. Unless otherwise agreed in writing, all disputes relating to this Agreement shall be subject to final and binding arbitration in Dallas County, Texas, with the losing party paying all costs of arbitration.

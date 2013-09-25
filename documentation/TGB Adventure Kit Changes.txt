@@ -1,0 +1,43 @@
+----------------------------------------------------------------
+Torque Game Builder Adventure Kit
+Copyright (c) 2008 Sickhead Games, LLC
+All Rights Reserved.
+http://www.sickheadgames.com
+
+Change Log
+----------------------------------------------------------------
+
+  - 2.0 - ???? ??th, 2008 -
+
+  * Fixed bug that kept strafe from working.
+
+
+  - 1.2 - August 30th, 2007 -
+  
+  * Updated readme and docs to reflect changes for TGB 1.5.1.
+  * We now have an installer for OSX.
+  * Fixed keybinding bugs.
+  * Startup no longer loads the LevelBuilder level...  see games/adventurekit/game/main.cs.
+  * Removed requirement for scenegraph to be assigned the Level class.
+  * Added workaround for linkmap bug in art resources.
+  * Renamed configDatablocks.cs to datablocks.cs.
+  * Converted art paths to use ~/.
+  * Fixed the player and camera to used ticked physics removed scene update call.
+  * Fixed typo in AiPlayer::getVisibleEnemy() which disabled 'sneakDist'.
+  * Fixed bug in Player::update() that would allow keyboard players to run faster than 'runSpeed' in diagonal directions.
+  * Fixed bug in Steering::calcSeparation() which would cause invalid parameter passing to t2d vector functions.
+  * Added this change log.
+
+
+  - 1.1 - October 27th, 2006
+
+  * TGB source code license no longer needed.
+  * Reworked collision for performance gain.
+  * Added new art for baskets, mushrooms, flags, and treasure chests.
+
+
+  - 1.0 - August 18th, 2006
+
+  * First release!
+
+ 

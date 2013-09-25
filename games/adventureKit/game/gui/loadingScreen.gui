@@ -1,0 +1,136 @@
+//------------------------------------------------------------------------------
+// Torque Game Builder Adventure Kit
+// Copyright (C) Sickhead Games, LLC
+//------------------------------------------------------------------------------
+
+
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(LoadingScreenGui) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "800 600";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   noCursor = true;
+   
+   new GuiChunkedBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "width";
+      VertSizing = "height";
+      position = "0 0";
+      Extent = "800 600";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "~/data/images/background";
+      useVariable = "0";
+      tile = "0";
+         
+      new GuiChunkedBitmapCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         position = "163 200";
+         Extent = "474 181";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         bitmap = "~/data/images/logo";
+         useVariable = "0";
+         tile = "0";
+      };
+      
+     new GuiBitmapCtrl(LoadingScreenGuiLoading) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         position = "320 383";
+         Extent = "136 51";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         bitmap = "~/data/images/loading";
+         useVariable = "0";
+         tile = "0";
+      };      
+   };
+};
+//--- OBJECT WRITE END ---
+
+function LoadingScreenGui::loadLevel( %this, %levelFile, %optionalSpawnPoint )
+{
+   // Store the level file for later.
+   %this.levelFile = %levelFile;
+   %this.optionalSpawnPoint = %optionalSpawnPoint;
+   
+   // Push ourselves.
+   Canvas.setContent( %this );
+}
+
+function LoadingScreenGui::onWake( %this )
+{
+   LoadingScreenGuiLoading.setVisible( false );
+
+   // Start the first step... unload the last level.
+   %this.schedule( 750, step1 );
+}
+
+function LoadingScreenGui::step1( %this )
+{
+   // Show the text.
+   LoadingScreenGuiLoading.setVisible( true );
+   
+   // Unload the previous level.
+   if ( isObject( $levelScene ) )
+      sceneWindow2D.endLevel();
+      
+   // Schedule the creation of the new level.
+   %this.schedule( 500, step2 );      
+}
+
+function LoadingScreenGui::step2( %this )
+{
+   $levelScene = levelCreate( %this.levelFile );
+   if ( !$levelScene )
+   {
+      Canvas.popDialog( %this );
+      return;
+   }
+
+   // Schedule the rest of the setup.
+   %this.schedule( 500, step3 ); 
+}
+
+function LoadingScreenGui::step3( %this )
+{  
+   // Setup the camera... the player will attach 
+   // itself to it later.
+   $camera = cameraCreate( $levelScene );
+   $camera.setTrackingForce( 6 );
+
+   // Spawn the player.
+   respawn( %this.optionalSpawnPoint );
+
+   // Start the player control move map.
+   moveMap.push();
+
+   // Start the playscreen.
+   Canvas.setContent( PlayScreenGui );
+
+   // The level editor pushes it's control dialog
+   // to the content... if it was there make sure
+   // we add it back.
+   if ( isObject( LBPlayLevelGui ) && $runWithEditors )
+      Canvas.pushDialog( LBPlayLevelGui );
+}

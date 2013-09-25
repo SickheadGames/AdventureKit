@@ -1,0 +1,255 @@
+//------------------------------------------------------------------------------
+// Torque Game Builder Adventure Kit
+// Copyright (C) Sickhead Games, LLC
+//------------------------------------------------------------------------------
+
+if(!isObject(VersionTextProfile)) new GuiControlProfile (VersionTextProfile : GuiTextProfile)
+{
+   fontType = "Arial Bold";
+   fontColor = "255 255 255";
+   fontSize = 18;
+};
+
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(MainMenuGui) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "800 600";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiChunkedBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "width";
+      VertSizing = "height";
+      position = "0 0";
+      Extent = "800 600";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "~/data/images/background";
+      useVariable = "0";
+      tile = "0";
+        
+      new GuiChunkedBitmapCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         position = "163 200";
+         Extent = "474 181";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         bitmap = "~/data/images/logo";
+         useVariable = "0";
+         tile = "0";
+      };
+      
+      new GuiControl(MainMenuDefaultButtonsGui) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "width";
+         VertSizing = "height";
+         position = "0 0";
+         Extent = "800 600";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";   
+         
+         new GuiBitmapButtonCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            position = "263 383";
+            Extent = "120 41";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            Command = "newGame();";
+            hovertime = "1000";
+            text = "Button";
+            groupNum = "-1";
+            buttonType = "PushButton";
+            bitmap = "~/data/images/newgame";
+         };
+         new GuiBitmapButtonCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            position = "388 383";
+            Extent = "83 41";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            Command = "Canvas.pushDialog(optionsDlg);";
+            hovertime = "1000";
+            text = "Button";
+            groupNum = "-1";
+            buttonType = "PushButton";
+            bitmap = "~/data/images/options";
+         };
+         new GuiBitmapButtonCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            position = "476 383";
+            Extent = "60 41";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            Command = "quit();";
+            hovertime = "1000";
+            text = "Button";
+            groupNum = "-1";
+            buttonType = "PushButton";
+            bitmap = "~/data/images/quit";
+         };      
+      };
+      
+      new GuiControl(MainMenuResumeButtonsGui) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "width";
+         VertSizing = "height";
+         position = "0 0";
+         Extent = "800 600";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";   
+         
+         new GuiBitmapButtonCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            position = "217 383";
+            Extent = "120 41";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            Command = "MainMenuGui.onNewGame();";
+            hovertime = "1000";
+            text = "Button";
+            groupNum = "-1";
+            buttonType = "PushButton";
+            bitmap = "~/data/images/newgame";
+         };
+         new GuiBitmapButtonCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            position = "342 383";
+            Extent = "87 41";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            Command = "Canvas.popDialog( MainMenuGui );";
+            hovertime = "1000";
+            text = "Button";
+            groupNum = "-1";
+            buttonType = "PushButton";
+            bitmap = "~/data/images/resume";
+         };      
+         new GuiBitmapButtonCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            position = "434 383";
+            Extent = "83 41";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            Command = "Canvas.pushDialog(optionsDlg);";
+            hovertime = "1000";
+            text = "Button";
+            groupNum = "-1";
+            buttonType = "PushButton";
+            bitmap = "~/data/images/options";
+         };
+         new GuiBitmapButtonCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "relative";
+            VertSizing = "relative";
+            position = "522 383";
+            Extent = "60 41";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            Command = "quit();";
+            hovertime = "1000";
+            text = "Button";
+            groupNum = "-1";
+            buttonType = "PushButton";
+            bitmap = "~/data/images/quit";
+         };      
+      };
+
+      new GuiTextCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "VersionTextProfile";
+         HorizSizing = "relative";
+         VertSizing = "relative";
+         Position = "10 580";
+         Extent = "100 20";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Version" SPC $adventureKitVersion;
+         maxLength = "255";
+      };      
+   };
+};
+//--- OBJECT WRITE END ---
+
+function MainMenuGui::onWake( %this )
+{
+   // If we have an existing game running then swap out
+   // the buttons with the 'resume' group.
+   if ( isObject( sceneWindow2D ) )
+      %sg = sceneWindow2D.getSceneGraph();
+
+   if ( %sg !$= "" )
+   {
+      pauseGame( true, true );
+      MainMenuDefaultButtonsGui.setVisible( false );
+      MainMenuResumeButtonsGui.setVisible( true );
+   }
+   else
+   {
+      MainMenuResumeButtonsGui.setVisible( false );
+      MainMenuDefaultButtonsGui.setVisible( true );
+   }
+}
+
+function MainMenuGui::onSleep( %this )
+{
+   // If we have an existing game running then 
+   // unpause before we go away.
+   if ( isObject( sceneWindow2D ) && sceneWindow2D.getSceneGraph() !$= "" )
+      pauseGame( false );
+}
+
+function MainMenuGui::onNewGame( %this )
+{
+   // Give the user a chance to cancel.
+   MessageBoxYesNo( "New Game", "This will end your current game.  Are you sure?", "newGame();" );
+}
+

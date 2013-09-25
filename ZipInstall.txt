@@ -1,0 +1,6 @@
+First be sure to read the documentation/Adventure Kit Readme.txt!
+
+You should be able to just copy this into your TGB folder 
+and nothing should be overwritten.
+
+ - Team Sickhead

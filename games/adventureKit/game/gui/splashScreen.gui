@@ -1,0 +1,48 @@
+//------------------------------------------------------------------------------
+// Torque Game Builder Adventure Kit
+// Copyright (C) Sickhead Games, LLC
+//------------------------------------------------------------------------------
+
+//--- OBJECT WRITE BEGIN ---
+new GuiFadeinBitmapCtrl(SplashScreenGui) {
+   profile = "GuiInputCtrlProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   visible = "1";
+   helpTag = "0";
+   bitmap = "~/data/images/splashScreen";
+   wrap = "0";
+   fadeinTime = "300";
+   waitTime   = "4000";
+   fadeoutTime = "300";
+};
+//--- OBJECT WRITE END ---
+
+
+function showSplashScreen()
+{
+   SplashScreenGui.done = 0;
+   Canvas.setContent(SplashScreenGui);
+   schedule(100, 0, checkSplashScreenGui);
+}
+
+function SplashScreenGui::click()
+{
+   closeSplashScreenGui();
+}
+
+function checkSplashScreenGui()
+{
+   if (SplashScreenGui.done)
+      closeSplashScreenGui();
+   else
+      schedule(100, 0, checkSplashScreenGui);
+}
+
+function closeSplashScreenGui()
+{
+   Canvas.setContent(MainMenuGui);
+}
