@@ -1,0 +1,7 @@
+<AnimationAsset
+    AssetName="broadleaf_anim"
+    Image="AdventureKit:broadleaf_map"
+    AnimationFrames="0"
+    AnimationTime="3"
+    AnimationCycle="1"
+/>

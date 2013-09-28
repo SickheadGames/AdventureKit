@@ -1,0 +1,14 @@
+<ImageAsset
+    AssetName="stonewalls"
+    ImageFile="stonewalls.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="2 2" Width="48" Height="210"/>
+		<Cell Offset="183 2" Width="48" Height="178"/>
+		<Cell Offset="52 107" Width="129" Height="103"/>
+		<Cell Offset="52 2" Width="129" Height="103"/>
+		<Cell Offset="183 182" Width="43" Height="56"/>
+		<Cell Offset="2 214" Width="31" Height="29"/>
+		<Cell Offset="52 212" Width="55" Height="41"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

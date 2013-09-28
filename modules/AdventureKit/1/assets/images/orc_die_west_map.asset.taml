@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="orc_die_west_map"
+ ImageFile="orc_die_west"
+    CellCountX="7"
+    CellCountY="7"
+    CellWidth="232"
+    CellHeight="232"
+/>

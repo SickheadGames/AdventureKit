@@ -1,0 +1,11 @@
+<ImageAsset
+    AssetName="pier"
+    ImageFile="pier.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="2 2" Width="110" Height="234"/>
+		<Cell Offset="114 2" Width="321" Height="84"/>
+		<Cell Offset="114 130" Width="25" Height="39"/>
+		<Cell Offset="114 88" Width="23" Height="40"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

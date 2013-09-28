@@ -1,0 +1,16 @@
+<ImageAsset
+    AssetName="rock_pinkgranite"
+    ImageFile="rock_pinkgranite.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="301 2" Width="100" Height="96"/>
+		<Cell Offset="413 104" Width="61" Height="61"/>
+		<Cell Offset="413 167" Width="35" Height="35"/>
+		<Cell Offset="247 118" Width="164" Height="88"/>
+		<Cell Offset="403 2" Width="100" Height="62"/>
+		<Cell Offset="403 66" Width="70" Height="36"/>
+		<Cell Offset="2 2" Width="79" Height="202"/>
+		<Cell Offset="83 2" Width="162" Height="193"/>
+		<Cell Offset="247 2" Width="52" Height="114"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

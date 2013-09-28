@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="elephantear_map"
+ ImageFile="elephant_ear"
+    CellCountX="4"
+    CellCountY="4"
+    CellWidth="126"
+    CellHeight="126"
+/>

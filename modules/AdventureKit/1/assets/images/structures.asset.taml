@@ -1,0 +1,18 @@
+<ImageAsset
+    AssetName="structures"
+    ImageFile="structures.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="2 2" Width="295" Height="412"/>
+		<Cell Offset="737 2" Width="13" Height="288"/>
+		<Cell Offset="613 2" Width="122" Height="237"/>
+		<Cell Offset="299 287" Width="352" Height="118"/>
+		<Cell Offset="299 407" Width="347" Height="92"/>
+		<Cell Offset="299 2" Width="312" Height="283"/>
+		<Cell Offset="653 292" Width="128" Height="181"/>
+		<Cell Offset="2 416" Width="141" Height="82"/>
+		<Cell Offset="145 416" Width="55" Height="77"/>
+		<Cell Offset="202 416" Width="54" Height="77"/>
+		<Cell Offset="258 416" Width="23" Height="33"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

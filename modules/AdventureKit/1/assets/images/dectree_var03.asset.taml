@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="dectree_var03"
+ ImageFile="dectree_var03.png"
+    CellCountX="4"
+    CellCountY="3"
+    CellWidth="308"
+    CellHeight="388"
+/>

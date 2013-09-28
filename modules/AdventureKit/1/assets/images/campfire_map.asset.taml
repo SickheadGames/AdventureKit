@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="campfire_map"
+ ImageFile="campfire_lit"
+    CellCountX="4"
+    CellCountY="5.66292"
+    CellWidth="126"
+    CellHeight="89"
+/>

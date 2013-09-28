@@ -1,0 +1,7 @@
+<AnimationAsset
+    AssetName="firsmallgreen_anim"
+    Image="AdventureKit:firsmallgreen_map"
+    AnimationFrames="0 1 2 3 4 5 6 7 8 8 8 7 6 5 4 3 2 1 0 0"
+    AnimationTime="2.5"
+    AnimationCycle="1"
+/>

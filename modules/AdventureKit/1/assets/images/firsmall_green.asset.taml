@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="firsmall_green"
+ ImageFile="firsmall_green.png"
+    CellCountX="3"
+    CellCountY="1.62058"
+    CellWidth="168"
+    CellHeight="311"
+/>

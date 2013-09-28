@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="decoration_tiles_map"
+ ImageFile="decoration_tiles"
+    CellCountX="6"
+    CellCountY="6"
+    CellWidth="128"
+    CellHeight="128"
+/>

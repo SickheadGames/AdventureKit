@@ -1,0 +1,15 @@
+<ImageAsset
+    AssetName="bags"
+    ImageFile="bags.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="126 75" Width="74" Height="100"/>
+		<Cell Offset="2 2" Width="122" Height="90"/>
+		<Cell Offset="126 2" Width="117" Height="71"/>
+		<Cell Offset="138 177" Width="59" Height="39"/>
+		<Cell Offset="71 182" Width="65" Height="45"/>
+		<Cell Offset="2 182" Width="67" Height="53"/>
+		<Cell Offset="202 75" Width="52" Height="52"/>
+		<Cell Offset="202 129" Width="39" Height="51"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

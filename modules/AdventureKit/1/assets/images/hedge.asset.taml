@@ -1,0 +1,9 @@
+<ImageAsset
+    AssetName="hedge"
+    ImageFile="hedge.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="2 2" Width="124" Height="198"/>
+		<Cell Offset="128 2" Width="248" Height="118"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

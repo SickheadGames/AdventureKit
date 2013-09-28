@@ -1,0 +1,21 @@
+<ImageAsset
+    AssetName="longgrass_clearings"
+    ImageFile="longgrass_clearings.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="2 2" Width="269" Height="204"/>
+		<Cell Offset="273 2" Width="237" Height="169"/>
+		<Cell Offset="512 2" Width="240" Height="155"/>
+		<Cell Offset="1209 2" Width="285" Height="131"/>
+		<Cell Offset="754 2" Width="220" Height="149"/>
+		<Cell Offset="976 2" Width="231" Height="144"/>
+		<Cell Offset="1209 135" Width="287" Height="117"/>
+		<Cell Offset="1496 2" Width="286" Height="119"/>
+		<Cell Offset="1498 123" Width="195" Height="106"/>
+		<Cell Offset="976 148" Width="142" Height="100"/>
+		<Cell Offset="273 173" Width="135" Height="77"/>
+		<Cell Offset="410 173" Width="102" Height="67"/>
+		<Cell Offset="514 159" Width="148" Height="54"/>
+		<Cell Offset="2 208" Width="23" Height="32"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>
