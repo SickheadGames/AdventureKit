@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="orc_idle_ewns_map"
+ ImageFile="orc_idle_ewns"
+    CellCountX="4"
+    CellCountY="4"
+    CellWidth="165"
+    CellHeight="165"
+/>

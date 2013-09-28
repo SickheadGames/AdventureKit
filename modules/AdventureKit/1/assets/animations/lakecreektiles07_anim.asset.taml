@@ -1,0 +1,7 @@
+<AnimationAsset
+    AssetName="lakecreektiles07_anim"
+    Image="AdventureKit:lakecreek_linkmap"
+    AnimationFrames="60 61 62 63 64 65 66 67 68 69"
+    AnimationTime="1.5"
+    AnimationCycle="1"
+/>

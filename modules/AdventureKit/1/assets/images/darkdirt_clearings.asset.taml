@@ -1,0 +1,20 @@
+<ImageAsset
+    AssetName="darkdirt_clearings"
+    ImageFile="darkdirt_clearings.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="2 2" Width="263" Height="210"/>
+		<Cell Offset="267 2" Width="257" Height="169"/>
+		<Cell Offset="526 2" Width="238" Height="153"/>
+		<Cell Offset="984 2" Width="291" Height="133"/>
+		<Cell Offset="766 2" Width="216" Height="140"/>
+		<Cell Offset="1566 2" Width="222" Height="131"/>
+		<Cell Offset="1277 2" Width="287" Height="132"/>
+		<Cell Offset="1566 135" Width="266" Height="116"/>
+		<Cell Offset="1790 2" Width="206" Height="126"/>
+		<Cell Offset="766 144" Width="142" Height="100"/>
+		<Cell Offset="267 173" Width="132" Height="74"/>
+		<Cell Offset="551 157" Width="102" Height="90"/>
+		<Cell Offset="401 173" Width="148" Height="54"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

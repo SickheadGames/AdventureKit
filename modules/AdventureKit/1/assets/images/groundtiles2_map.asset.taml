@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="ground_tiles_02"
+ ImageFile="ground_tiles_02.png"
+    CellCountX="7"
+    CellCountY="5"
+    CellWidth="91"
+    CellHeight="128"
+/>

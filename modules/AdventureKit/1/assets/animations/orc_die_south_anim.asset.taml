@@ -1,0 +1,7 @@
+<AnimationAsset
+    AssetName="orc_die_south_anim"
+    Image="AdventureKit:orc_die_south_map"
+    AnimationFrames="0 1 2 3 4 5 6"
+    AnimationTime="1"
+    AnimationCycle="0"
+/>

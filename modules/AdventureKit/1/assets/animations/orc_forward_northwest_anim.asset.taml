@@ -1,0 +1,7 @@
+<AnimationAsset
+    AssetName="orc_forward_northwest_anim"
+    Image="AdventureKit:orc_forward_northwest_map"
+    AnimationFrames="0"
+    AnimationTime="1"
+    AnimationCycle="1"
+/>

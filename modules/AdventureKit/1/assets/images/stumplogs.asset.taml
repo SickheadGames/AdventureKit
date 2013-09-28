@@ -1,0 +1,17 @@
+<ImageAsset
+    AssetName="stumplogs"
+    ImageFile="stumplogs.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="218 148" Width="232" Height="90"/>
+		<Cell Offset="195 2" Width="200" Height="144"/>
+		<Cell Offset="452 2" Width="86" Height="181"/>
+		<Cell Offset="2 2" Width="191" Height="163"/>
+		<Cell Offset="397 2" Width="48" Height="101"/>
+		<Cell Offset="109 167" Width="107" Height="85"/>
+		<Cell Offset="452 185" Width="117" Height="51"/>
+		<Cell Offset="2 167" Width="105" Height="87"/>
+		<Cell Offset="540 2" Width="50" Height="67"/>
+		<Cell Offset="195 148" Width="17" Height="11"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

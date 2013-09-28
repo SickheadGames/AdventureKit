@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="orc_forward_east_map"
+ ImageFile="orc_forward_east"
+    CellCountX="10"
+    CellCountY="10"
+    CellWidth="165"
+    CellHeight="165"
+/>

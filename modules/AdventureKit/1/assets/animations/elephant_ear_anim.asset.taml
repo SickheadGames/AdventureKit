@@ -1,0 +1,7 @@
+<AnimationAsset
+    AssetName="elephant_ear_anim"
+    Image="AdventureKit:elephantear_map"
+    AnimationFrames="0"
+    AnimationTime="1.5"
+    AnimationCycle="1"
+/>

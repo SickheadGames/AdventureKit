@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="stonepath"
+ ImageFile="stonepath.png"
+    CellCountX="4"
+    CellCountY="4"
+    CellWidth="129"
+    CellHeight="129"
+/>

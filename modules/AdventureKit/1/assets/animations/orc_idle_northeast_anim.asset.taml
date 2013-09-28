@@ -1,0 +1,7 @@
+<AnimationAsset
+    AssetName="orc_idle_northeast_anim"
+    Image="AdventureKit:orc_idle_nwneswse_map"
+    AnimationFrames="4 5 6 6 6 7"
+    AnimationTime="1"
+    AnimationCycle="1"
+/>

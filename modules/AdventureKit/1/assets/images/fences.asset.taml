@@ -1,0 +1,12 @@
+<ImageAsset
+    AssetName="fences"
+    ImageFile="fences.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="346 2" Width="21" Height="191"/>
+		<Cell Offset="197 2" Width="145" Height="163"/>
+		<Cell Offset="2 73" Width="147" Height="161"/>
+		<Cell Offset="2 2" Width="193" Height="69"/>
+		<Cell Offset="151 167" Width="193" Height="66"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

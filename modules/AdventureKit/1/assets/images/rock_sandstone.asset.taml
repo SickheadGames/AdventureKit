@@ -1,0 +1,16 @@
+<ImageAsset
+    AssetName="rock_sandstone"
+    ImageFile="rock_sandstone.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="303 2" Width="100" Height="98"/>
+		<Cell Offset="248 119" Width="62" Height="62"/>
+		<Cell Offset="477 63" Width="33" Height="34"/>
+		<Cell Offset="312 102" Width="165" Height="85"/>
+		<Cell Offset="405 2" Width="99" Height="59"/>
+		<Cell Offset="405 63" Width="70" Height="36"/>
+		<Cell Offset="2 2" Width="77" Height="201"/>
+		<Cell Offset="81 2" Width="165" Height="190"/>
+		<Cell Offset="248 2" Width="53" Height="115"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>
