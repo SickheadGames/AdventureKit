@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="lakecreektiles912"
+ ImageFile="lakecreektiles912.png"
+    CellCountX="10"
+    CellCountY="10"
+    CellWidth="128"
+    CellHeight="128"
+/>

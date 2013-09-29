@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="orc_jump_northeast_map"
+ ImageFile="orc_jump_northeast"
+    CellCountX="8"
+    CellCountY="8"
+    CellWidth="165"
+    CellHeight="165"
+/>

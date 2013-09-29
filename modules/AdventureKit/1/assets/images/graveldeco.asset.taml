@@ -1,0 +1,36 @@
+<ImageAsset
+    AssetName="graveldeco"
+    ImageFile="graveldeco.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="920 140" Width="57" Height="51"/>
+		<Cell Offset="1649 163" Width="34" Height="35"/>
+		<Cell Offset="1615 163" Width="32" Height="36"/>
+		<Cell Offset="1736 154" Width="34" Height="41"/>
+		<Cell Offset="1772 154" Width="28" Height="37"/>
+		<Cell Offset="1772 96" Width="30" Height="23"/>
+		<Cell Offset="1739 121" Width="45" Height="31"/>
+		<Cell Offset="1616 2" Width="57" Height="41"/>
+		<Cell Offset="1685 154" Width="49" Height="41"/>
+		<Cell Offset="1616 54" Width="72" Height="45"/>
+		<Cell Offset="1690 54" Width="53" Height="41"/>
+		<Cell Offset="785 140" Width="61" Height="58"/>
+		<Cell Offset="1683 101" Width="54" Height="51"/>
+		<Cell Offset="1615 101" Width="66" Height="60"/>
+		<Cell Offset="848 140" Width="70" Height="57"/>
+		<Cell Offset="1745 54" Width="55" Height="40"/>
+		<Cell Offset="2 2" Width="262" Height="197"/>
+		<Cell Offset="266 2" Width="329" Height="179"/>
+		<Cell Offset="597 2" Width="186" Height="173"/>
+		<Cell Offset="964 2" Width="247" Height="116"/>
+		<Cell Offset="1213 2" Width="141" Height="115"/>
+		<Cell Offset="1356 2" Width="258" Height="97"/>
+		<Cell Offset="785 2" Width="177" Height="136"/>
+		<Cell Offset="979 120" Width="164" Height="77"/>
+		<Cell Offset="1350 119" Width="109" Height="69"/>
+		<Cell Offset="1145 120" Width="104" Height="77"/>
+		<Cell Offset="1461 101" Width="152" Height="86"/>
+		<Cell Offset="1685 2" Width="106" Height="50"/>
+		<Cell Offset="1251 119" Width="97" Height="77"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

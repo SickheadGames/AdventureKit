@@ -1,0 +1,14 @@
+<ImageAsset
+    AssetName="mushbaskets"
+    ImageFile="mushbaskets.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="173 2" Width="68" Height="76"/>
+		<Cell Offset="297 2" Width="60" Height="51"/>
+		<Cell Offset="80 2" Width="91" Height="78"/>
+		<Cell Offset="2 2" Width="76" Height="81"/>
+		<Cell Offset="243 2" Width="52" Height="55"/>
+		<Cell Offset="359 46" Width="32" Height="34"/>
+		<Cell Offset="359 2" Width="51" Height="42"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

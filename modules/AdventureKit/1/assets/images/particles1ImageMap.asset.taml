@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="particles1ImageMap"
+ ImageFile="particles1"
+    CellCountX="2"
+    CellCountY="2"
+    CellWidth="64"
+    CellHeight="64"
+/>

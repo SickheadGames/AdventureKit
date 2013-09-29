@@ -1,0 +1,64 @@
+<ImageAsset
+    AssetName="flags"
+    ImageFile="flags.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="2 89" Width="211" Height="20"/>
+		<Cell Offset="574 2" Width="54" Height="78"/>
+		<Cell Offset="524 2" Width="48" Height="80"/>
+		<Cell Offset="288 2" Width="48" Height="82"/>
+		<Cell Offset="102 2" Width="41" Height="84"/>
+		<Cell Offset="891 2" Width="29" Height="75"/>
+		<Cell Offset="1009 2" Width="27" Height="64"/>
+		<Cell Offset="1689 2" Width="27" Height="54"/>
+		<Cell Offset="1722 51" Width="34" Height="47"/>
+		<Cell Offset="1805 50" Width="45" Height="46"/>
+		<Cell Offset="1915 49" Width="61" Height="45"/>
+		<Cell Offset="1272 66" Width="76" Height="45"/>
+		<Cell Offset="1575 59" Width="73" Height="48"/>
+		<Cell Offset="1527 2" Width="73" Height="55"/>
+		<Cell Offset="1236 2" Width="64" Height="62"/>
+		<Cell Offset="742 2" Width="54" Height="75"/>
+		<Cell Offset="238 2" Width="48" Height="82"/>
+		<Cell Offset="145 2" Width="48" Height="83"/>
+		<Cell Offset="195 2" Width="41" Height="83"/>
+		<Cell Offset="860 2" Width="29" Height="75"/>
+		<Cell Offset="980 2" Width="27" Height="64"/>
+		<Cell Offset="1660 2" Width="27" Height="54"/>
+		<Cell Offset="1718 2" Width="34" Height="47"/>
+		<Cell Offset="1801 2" Width="45" Height="46"/>
+		<Cell Offset="1852 49" Width="61" Height="45"/>
+		<Cell Offset="1194 66" Width="76" Height="45"/>
+		<Cell Offset="1500 59" Width="73" Height="48"/>
+		<Cell Offset="1452 2" Width="73" Height="55"/>
+		<Cell Offset="1170 2" Width="64" Height="62"/>
+		<Cell Offset="686 2" Width="54" Height="75"/>
+		<Cell Offset="2 2" Width="48" Height="85"/>
+		<Cell Offset="52 2" Width="48" Height="84"/>
+		<Cell Offset="381 2" Width="41" Height="81"/>
+		<Cell Offset="829 2" Width="29" Height="75"/>
+		<Cell Offset="951 2" Width="27" Height="64"/>
+		<Cell Offset="1631 2" Width="27" Height="54"/>
+		<Cell Offset="1686 58" Width="34" Height="47"/>
+		<Cell Offset="1758 50" Width="45" Height="46"/>
+		<Cell Offset="1911 2" Width="61" Height="45"/>
+		<Cell Offset="1116 66" Width="76" Height="45"/>
+		<Cell Offset="1425 59" Width="73" Height="48"/>
+		<Cell Offset="1377 2" Width="73" Height="55"/>
+		<Cell Offset="1104 2" Width="64" Height="62"/>
+		<Cell Offset="630 2" Width="54" Height="75"/>
+		<Cell Offset="474 2" Width="48" Height="80"/>
+		<Cell Offset="424 2" Width="48" Height="80"/>
+		<Cell Offset="338 2" Width="41" Height="82"/>
+		<Cell Offset="798 2" Width="29" Height="75"/>
+		<Cell Offset="922 2" Width="27" Height="64"/>
+		<Cell Offset="1602 2" Width="27" Height="54"/>
+		<Cell Offset="1650 58" Width="34" Height="47"/>
+		<Cell Offset="1754 2" Width="45" Height="46"/>
+		<Cell Offset="1848 2" Width="61" Height="45"/>
+		<Cell Offset="1038 66" Width="76" Height="45"/>
+		<Cell Offset="1350 59" Width="73" Height="48"/>
+		<Cell Offset="1302 2" Width="73" Height="55"/>
+		<Cell Offset="1038 2" Width="64" Height="62"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

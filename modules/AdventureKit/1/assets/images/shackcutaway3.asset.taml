@@ -1,0 +1,12 @@
+<ImageAsset
+    AssetName="shackcutaway3"
+    ImageFile="shackcutaway3.png">	
+	<ImageAsset.Cells>
+		<Cell Offset="2 338" Width="231" Height="319"/>
+		<Cell Offset="2 2" Width="233" Height="334"/>
+		<Cell Offset="2 659" Width="106" Height="130"/>
+		<Cell Offset="110 659" Width="43" Height="125"/>
+		<Cell Offset="155 659" Width="46" Height="47"/>
+		
+	</ImageAsset.Cells>
+</ImageAsset>

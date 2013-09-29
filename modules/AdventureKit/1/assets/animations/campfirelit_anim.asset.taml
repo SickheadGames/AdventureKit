@@ -1,0 +1,7 @@
+<AnimationAsset
+    AssetName="campfirelit_anim"
+    Image="AdventureKit:campfire_map"
+    AnimationFrames="1 2 1 2 1 2 1 0 2 1 2 1 2 0 2 1"
+    AnimationTime="2"
+    AnimationCycle="1"
+/>

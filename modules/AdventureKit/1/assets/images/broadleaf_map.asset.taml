@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="broadleaf_map"
+ ImageFile="broadleaf"
+    CellCountX="4"
+    CellCountY="4"
+    CellWidth="124"
+    CellHeight="114"
+/>

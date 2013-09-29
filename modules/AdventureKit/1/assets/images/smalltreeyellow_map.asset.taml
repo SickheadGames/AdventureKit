@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="smalltreeyellow_map"
+ ImageFile="smalltree_yellow"
+    CellCountX="5"
+    CellCountY="2.05761"
+    CellWidth="100"
+    CellHeight="243"
+/>

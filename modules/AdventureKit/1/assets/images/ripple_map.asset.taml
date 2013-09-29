@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="ripple_map"
+ ImageFile="ripple"
+    CellCountX="11"
+    CellCountY="16.0896"
+    CellWidth="98"
+    CellHeight="67"
+/>

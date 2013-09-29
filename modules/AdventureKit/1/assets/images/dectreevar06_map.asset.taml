@@ -1,0 +1,8 @@
+<ImageAsset
+ AssetName="dectreevar06_map"
+ ImageFile="dectree_var06"
+    CellCountX="4"
+    CellCountY="3.17526"
+    CellWidth="308"
+    CellHeight="388"
+/>

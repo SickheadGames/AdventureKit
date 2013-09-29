@@ -1,0 +1,7 @@
+<AnimationAsset
+    AssetName="treasurechest_anim"
+    Image="AdventureKit:treasurechest_map"
+    AnimationFrames="1 1 2 2 1 1 2 1 2 1 2 3 4 5 6"
+    AnimationTime="1"
+    AnimationCycle="0"
+/>

@@ -1,0 +1,7 @@
+<AnimationAsset
+    AssetName="oceantiles09_anim"
+    Image="AdventureKit:ocean_linkmap"
+    AnimationFrames="80 81 82 83 84 85 86 87 88 89"
+    AnimationTime="1.5"
+    AnimationCycle="1"
+/>
